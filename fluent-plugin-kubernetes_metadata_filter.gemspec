@@ -22,7 +22,8 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency "fluentd", ">= 0.12.0"
   gem.add_runtime_dependency "lru_redux"
-  gem.add_runtime_dependency "kubeclient", "~> 1.1.4"
+  gem.add_runtime_dependency "kubeclient", "~> 3.0.0"
+  gem.add_runtime_dependency "activesupport"
 
   gem.add_development_dependency "bundler", "~> 1.3"
   gem.add_development_dependency "rake"
